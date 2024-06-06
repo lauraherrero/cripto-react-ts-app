@@ -13,7 +13,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 97vh;
+  height: 93vh;
   font-family: "Outfit", sans-serif;
 }
 
@@ -33,4 +33,12 @@ body {
   display: block;
   color: var(--primary);
   font-size: 4.4rem;
+}
+
+.content {
+  margin-top: 5rem;
+  padding: 6rem 2rem;
+  background-color: var(--white);
+  border-radius: 1rem;
+  box-sizing: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
