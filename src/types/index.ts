@@ -4,4 +4,4 @@ import { CurrencySchema, CryptoCurrencyResponseSchema, PairSchema, CryptoDataSch
 export type Currency = z.infer<typeof CurrencySchema>;
 export type Cryptocurrency = z.infer<typeof CryptoCurrencyResponseSchema>;
 export type Pair = z.infer<typeof PairSchema>;
-//export type CryptoData = z.infer<typeof CryptoDataSchema>;
+export type CryptoData = z.infer<typeof CryptoDataSchema>;
