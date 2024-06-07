@@ -13,7 +13,7 @@ export const CryptoPriceDisplay = () => {
     <div className="result-wrapper">
       {load ? <Spinner /> : hasResult && (
         <>
-          <h2>Cotizacón</h2>
+          <h2>Cotización</h2>
           <div className="result">
             <img src={`https://cryptocompare.com/${result.IMAGEURL}`} alt="Imagen Cryptomoneda" />
             <div>

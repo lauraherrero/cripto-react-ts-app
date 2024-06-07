@@ -1,30 +1,43 @@
-# React + TypeScript + Vite
+# Exchanger Cryptocurrencies   🪙💵💰💱
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Summary: 📝
 
-Currently, two official plugins are available:
+https://crypto-react-ts-app.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Project based on a cryptocurrency quotation system based on different currencies of the FIAT system.
 
-## Expanding the ESLint configuration
+The user has the possibility to select a Fiat system currency (Euro, Dollar, Pound or Mexican Peso). The user can then select the cryptocurrency for which he/she wants to know the information. The 20 most important cryptos on the market can be selected.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Once you have made your selection and clicked on the “quote” button, it is possible to display various information data.
+On the left is shown the image of the selected cryptocurrency and on the right values such as its price with respect to the chosen currency, the highest or lowest price of the day, the variation value that the crypto has had and the time of the last update.
 
-- Configure the top-level `parserOptions` property like this:
+You can change both the currency and the cryptocurrency and when you click on the button again, the information will be updated.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Zod has been used as a TypeScript-first schema validation and declaration library.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+And Zustand, which provides a centralized state management system that allows state to be shared among multiple components in an efficient manner.
+
+
+## Technology Stack 💻
+The application has been made from scratch with React using Vite and a store that allows to separate the application logic and have cleaner components. We have also used useMemo that lets you cache the result of a calculation between re-renders.
+
+<ul>
+  <li>React</li>
+  <li>Typescript</li>
+  <li>Redux</li>
+  <li>Zod</li>  
+  <li>Zustand</li>
+  <li>Git</li>
+  <li>Vite</li>
+</ul>
+
+
+## Instructions ✍
+
+### How to run: 
+
+<pre>
+    <p>npm install <br></p>
+    <p>npm run dev <br></p>
+    
+</pre>
