@@ -5,8 +5,10 @@ import { useCryptoStore } from "./store"
 function App() {
 
   const fetchCryptos = useCryptoStore((state) => state.fetchCryptos );
+  //const fetchData = useCryptoStore((state) => state.fetchData );
 
   useEffect(() => {fetchCryptos()}, [])
+  //useEffect(() => {fetchData()}, [])
 
   return (
     <>
